@@ -1,0 +1,142 @@
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-image: url("./fondo.jpg");
+    background-size: 20rem;
+    background-attachment: fixed;
+    color: white;
+}
+
+#subintro {
+    border: 5px solid rgb(7, 0, 70);
+    background-color: black;
+    border-radius: 20px;
+    
+}
+
+a {
+    color: #ce05ac;
+    text-decoration: none;
+}
+
+p {
+    margin-bottom: 20px;
+}
+
+#header {
+    background: black;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+    border-radius: 20px;
+    
+}
+
+#intro {
+    background-color: rgb(0, 0, 0);
+    padding-top: 80px;
+    border-radius: 20px;
+    
+}
+
+.subtitulo {
+    color: blue;
+}
+/*#contacinfo {
+    border: 5px solid rgb(7, 0, 70);
+    background-color: black;
+    border-radius: 20px;
+}*/
+
+#subheading {
+    background-color: black;
+    border-radius: 20px;
+}
+
+#info {
+    color: rgb(46, 45, 45);
+    background-color: black;
+    border: 5px solid rgb(7, 0, 70);
+    border-radius: 20px;
+}
+
+#social {
+    background-color: black;
+    border: 5px solid rgb(7, 0, 70);
+    border-radius: 20px;
+
+}
+
+.portada {
+    background-image: url(./portada.jpg);
+    background-repeat: repeat;
+    
+}
+
+.colortitles {
+    color: blue;
+}
+
+.circular--square {
+    border-radius: 10px;
+    width: 10%;
+    
+    
+}
+
+nav {
+    float: left; /* desplazamiento del nav hacia la izquierda */
+}
+nav ul {
+    list-style: none;
+    overflow: hidden; /* limpiamos herrores de float */
+}
+nav ul li {
+    float: left;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+}
+nav ul li a {
+    display: block; /* combertimos elementos en elementos de bloque para manipular el padding */
+    padding: 20px;
+    color: #fff;
+    text-decoration: none;
+}
+nav ul li:hover {
+    background: #ce05ac;
+}
+
+.contenido {
+
+    float: right;
+    padding-top: 80px;
+}
+.wrapper {
+    margin: auto;
+    overflow: hidden;
+    width: 80%;
+    float: left;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
